@@ -1,0 +1,28 @@
+{
+  "name": "rick-and-morty-async",
+  "version": "1.0.0",
+  "description": "Ejercicios de asincronismo con la API de Rick and Morty",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:challenge": "node src/callback/challenge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/betoarpi/rick-and-morty-experiment.git"
+  },
+  "keywords": [
+    "callbacks",
+    "async",
+    "promises"
+  ],
+  "author": "Rob Arroyo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/betoarpi/rick-and-morty-experiment/issues"
+  },
+  "homepage": "https://github.com/betoarpi/rick-and-morty-experiment#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
